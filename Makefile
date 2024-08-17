@@ -5,3 +5,7 @@ install:
 lint:
 	poetry run black .
 	poetry run isort .
+
+
+dev:
+	fastapi dev
